@@ -1,0 +1,27 @@
+{
+  "name": "docker-bark",
+  "version": "1.0.0",
+  "description": "Return your ipv4 and ipv6 addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./webapp/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windyard/docker-bark.git"
+  },
+  "keywords": [
+    "ip",
+    "address"
+  ],
+  "author": "Windyard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/windyard/docker-bark/issues"
+  },
+  "homepage": "https://github.com/windyard/docker-bark#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
